@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  text-align: left;
+  width:70%;
+  margin:0 auto;
 }
 
 .App-logo {
@@ -29,4 +31,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.input-container input[type="text"]{
+    width:50%;
+    height:50px;
+    line-height:50px;
+
+}
+
+.input-container label{
+  display: block;
 }
